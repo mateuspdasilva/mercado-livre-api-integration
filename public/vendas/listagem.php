@@ -50,7 +50,7 @@ Ticket medio: R$ <?php echo number_format($ticket_medio_mercadolivre, 2, ',', '.
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- CORRIGIR URL NA LINHA 70 ANTES DE RODAR ESRA REQUEST -->
+<!-- CORRIGIR URL NA LINHA 70 ANTES DE RODAR -->
 
 <table class="table table-striped">
   <thead>
