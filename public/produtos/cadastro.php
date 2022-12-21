@@ -51,7 +51,7 @@ curl_setopt_array($curl_desc, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS => '{
-          "plain_text" = "teste dos guri"
+          "plain_text" = "description test"
       }',
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json',

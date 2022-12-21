@@ -50,6 +50,8 @@ Ticket medio: R$ <?php echo number_format($ticket_medio_mercadolivre, 2, ',', '.
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
+<!-- CORRIGIR URL NA LINHA 70 ANTES DE RODAR ESRA REQUEST -->
+
 <table class="table table-striped">
   <thead>
     <tr>
@@ -65,7 +67,7 @@ Ticket medio: R$ <?php echo number_format($ticket_medio_mercadolivre, 2, ',', '.
         <?php
         $i = 0;
         foreach ($linhas->payments as $linhas_payments) {
-          echo '<td><a href="https://adm.plataformafly.com.br/mercadolivre/pedidos/pedido.php/?idVenda=' . $linhas_payments->order_id . '">' . $linhas_payments->order_id . '</a></td>';
+          echo '<td><a href="https://https://localhost/index.php/vendas/pedidos.php/?idVenda=' . $linhas_payments->order_id . '">' . $linhas_payments->order_id . '</a></td>';
           echo '<td>' . $linhas_payments->date_approved . '</td>';
           echo '<td>R$ ' . number_format($linhas_payments->total_paid_amount, 2, ',', '.') . '</td>';
           echo '<td>' . $linhas_payments->status . '</td>';
