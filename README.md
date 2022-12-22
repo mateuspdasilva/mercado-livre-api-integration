@@ -11,7 +11,7 @@ Para rodar esta aplicação, primeiramente você precisa ter o docker e o docker
 
 # Passo 3 - Subindo os containers no Docker
 Agora que você tem o docker instalado e configurado, você vai acessar o projeto na sua IDE ou terminal, vai entrar na pasta laradock (api-meli/laradock) e vai rodar o seguinte comando
-docker compose up nginx phpmyadmin mysql
+'docker compose up nginx phpmyadmin mysql'
 
 # Passo 4 - Configurando o Banco de Dados
 Com os containers do docker rodando, você vai acessar a url localhost:80 e vai fazer login com o user "root" e a senha "root". Tendo isso feito você vai importar a tabela localizada em api-meli/database_dump/ e preencher os campos 'client_id' com o ID da sua aplicação do mercado livre e 'client_secret' com a respectiva secret key, também disponível na sua aplicação.
