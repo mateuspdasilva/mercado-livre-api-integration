@@ -8,6 +8,7 @@ Você precisa ter uma conta autenticada no Mercado Livre e acessar a url https:/
 
 # Passo 2 - Laradock setup
 Clone o seguinte diretório na raiz do seu proejto: https://github.com/laradock/laradock.git
+(Você também pode criar ou copiar somente as Dockerfiles que serão utilizadas para criar os containers no Docker)
 
 # Passo 3 - Instalando o Docker
 Para rodar esta aplicação, primeiramente você precisa ter o docker e o docker compose instalados na sua máquina, você encontrará o download disponível no site oficial do docker https://www.docker.com/
